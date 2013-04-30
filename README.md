@@ -10,7 +10,7 @@ Installation
 
 > git clone git://github.com/lxblink/Yii-Chat-Extension.git
 
-Quote break.
+
 
 2. In config/main, in your imports, add:
 
@@ -19,7 +19,7 @@ Quote break.
 >        'application.extensions.chat.*',
 >    ),
 
-Quote break.
+
 
 3. Edit your file: 'protected/controllers/siteController.php' and add the static action int actions() array.
 
@@ -33,7 +33,7 @@ Quote break.
 >        );
 >    }
 
-Quote break.
+
 
 4. Put this code inside "position: relative" block (it can be in layout or view).
 
