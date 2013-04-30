@@ -42,3 +42,13 @@ Quote break.
 5. Execute sql query from "sql/chatSQL.sql".
 
 Almost done!
+
+
+
+
+Used server software:
+
+1. Apache 2.2.24
+2. PHP 5.4.13
+3. MySQL 5.6.10
+
