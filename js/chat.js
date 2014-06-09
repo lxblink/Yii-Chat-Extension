@@ -27,7 +27,7 @@
         };
         ChatWidget.prototype.loadMessages = function(){
             $.ajax({
-                url: '/index.php/site/chat',
+                 url: '/index.php?r=site/chat',
                 data: {action: 'get'},
                 type: 'POST',
                 dataType: 'json',
@@ -98,7 +98,7 @@
                 this.disableInput();
                 this.stopInterval();
                 $.ajax({
-                    url: '/index.php/site/chat',
+                    url: '/index.php?r=site/chat',
                     data: {message: message, action: 'post'},
                     dataType: 'json',
                     type: 'POST',

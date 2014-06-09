@@ -16,7 +16,7 @@ Installation
 
 > 'imports' => array(
 >        ..bla..
->        'application.extensions.chat.*',
+>        'application.extensions.Yii-Chat-Extension.*',
 >    ),
 
 
@@ -37,11 +37,11 @@ Installation
 
 4. Put this code inside "position: relative" block (it can be in layout or view).
 
-> <?php $this->widget('application.extensions.chat.Chat'); ?>
+> <?php $this->widget('application.extensions.Yii-Chat-Extension.Chat'); ?>
 
 5. Execute sql query from "sql/chatSQL.sql".
 
-Almost done!
+All done!
 
 
 
