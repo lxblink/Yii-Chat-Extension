@@ -14,7 +14,7 @@ Installation
 
 2. In config/main, in your imports, add:
 
-> 'imports' => array(
+> 'import' => array(
 >        ..bla..
 >        'application.extensions.Yii-Chat-Extension.*',
 >    ),
